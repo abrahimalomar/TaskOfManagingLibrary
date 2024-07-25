@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskOfManagingLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:TaskOfManagingLibrary.Controllers.AuthorsController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            Retrieves a paginated list of authors.
+            </summary>
+            <param name="pageNumber">The page number to retrieve. Defaults to 1.</param>
+            <param name="pageSize">The number of authors per page. Defaults to 10.</param>
+            <returns>A paginated result containing a list of author details.</returns>
+            <response code="200">Returns the paginated list of authors.</response>
+            <response code="400">Returns a BadRequest if the request parameters are invalid.</response>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.AuthorsController.GetById(System.Int32)">
+            <summary>
+            Retrieves an author by their unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the author.</param>
+            <returns>
+            Returns the author details if found, otherwise returns a NotFound result.
+            </returns>
+            <response code="200">Returns the details of the author if found.</response>
+            <response code="404">Returns a NotFound result if no author with the given ID is found.</response>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.AuthorsController.Add(TaskOfManagingLibrary.DTOs.AuthorDtos.AuthorForCreateDto)">
+            <summary>
+            Adds a new author to the system.
+            </summary>
+            <param name="AuthorForCreateDto">The details of the author to be added.</param>
+            <returns>
+            Returns a CreatedAtAction result with the newly created author details if the addition is successful.
+            </returns>
+            <response code="201">Returns the details of the newly created author, along with a location header pointing to the new resource.</response>
+            <response code="400">Returns a BadRequest if the input data is invalid.</response>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.AuthorsController.Update(System.Int32,TaskOfManagingLibrary.DTOs.AuthorDtos.AuthorDto)">
+            <summary>
+            Updates an existing author in the system.
+            </summary>
+            <param name="id">The unique identifier of the author to be updated.</param>
+            <param name="model">The updated details of the author.</param>
+            <returns>
+            Returns NoContent if the update is successful. 
+            Returns NotFound if the author with the specified ID does not exist.
+            </returns>
+            <response code="204">Indicates that the update was successful and there is no content to return.</response>
+            <response code="404">Indicates that the author with the specified ID was not found.</response>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.AuthorsController.SoftDelete(System.Int32)">
+            <summary>
+            Marks an author as deleted without actually removing it from the database.
+            </summary>
+            <param name="id">The unique identifier of the author to be soft-deleted.</param>
+            <returns>
+            Returns NoContent if the soft delete operation is successful. 
+            Returns NotFound if the author with the specified ID does not exist.
+            </returns>
+            <response code="204">Indicates that the soft delete was successful and there is no content to return.</response>
+            <response code="404">Indicates that the author with the specified ID was not found.</response>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.BooksController.GetAll(System.Int32,System.Int32)">
+            <summary>
+            Retrieves a paginated list of books.
+            </summary>
+            <param name="pageNumber">The page number to retrieve. Defaults to 1 if not provided.</param>
+            <param name="pageSize">The number of books to retrieve per page. Defaults to 10 if not provided.</param>
+            <returns>Returns a paginated list of books with their details. If no books are found, returns an empty list.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.BooksController.GetById(System.Int32)">
+            <summary>
+            Retrieves a book by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the book.</param>
+            <returns>Returns the book details if found. If the book is not found, returns a NotFound result.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.BooksController.Add(TaskOfManagingLibrary.DTOs.BookDtos.BookForCreateDto)">
+            <summary>
+            Adds a new book to the system.
+            </summary>
+            <param name="bookDto">The details of the book to be added.</param>
+            <returns>Returns a CreatedAtAction response with the details of the added book if successful.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.BooksController.Update(System.Int32,TaskOfManagingLibrary.DTOs.BookDtos.BookForCreateDto)">
+            <summary>
+            Updates the details of an existing book.
+            </summary>
+            <param name="id">The unique identifier of the book to be updated.</param>
+            <param name="model">The updated details of the book.</param>
+            <returns>Returns NoContent if the update is successful; otherwise,
+            returns NotFound if the book with the specified Id is not found.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.BooksController.SoftDelete(System.Int32)">
+            <summary>
+            Marks a book as deleted without physically removing it from the database.
+            </summary>
+            <param name="id">The unique identifier of the book to be marked as deleted.</param>
+            <returns>Returns NoContent if the book is successfully marked as deleted; otherwise, 
+            returns NotFound if the book with the specified Id is not found.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.MainCategoriesFromEFController.GetAllMainCategories">
+            <summary>
+            Retrieves all main categories with pagination support.
+            </summary>
+            <param name="pageNumber">The page number to retrieve. Default is 1.</param>
+            <param name="pageSize">The number of items per page. Default is 10.</param>
+            <returns>Returns a paged list of main categories.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.MainCategoriesFromEFController.GetById(System.Int32)">
+            <summary>
+            Retrieves a main category by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the main category.</param>
+            <returns>Returns the main category if found, otherwise returns a NotFound result.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.MainCategoriesFromEFController.GetSubCategoriesByMainCategoryId(System.Int32)">
+            <summary>
+            Retrieves a list of subcategories by the main category identifier.
+            </summary>
+            <param name="mainCategoryId">The unique identifier of the main category.</param>
+            <returns>Returns a list of subcategories associated with the main category.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.MainCategoriesFromEFController.Add(TaskOfManagingLibrary.DTOs.MainCategoryDtos.MainCategoryForCreateDto)">
+            <summary>
+            Adds a new main category.
+            </summary>
+            <param name="model">The main category data transfer object containing the details of the main category to be created.</param>
+            <returns>Returns the created main category along with its identifier.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.MainCategoriesFromEFController.Update(System.Int32,TaskOfManagingLibrary.DTOs.MainCategoryDtos.MainCategoryForCreateDto)">
+            <summary>
+            Updates an existing main category.
+            </summary>
+            <param name="id">The unique identifier of the main category to be updated.</param>
+            <param name="model">The data transfer object containing the updated details of the main category.</param>
+            <returns>Returns a NoContent result if the update is successful.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.MainCategoriesFromEFController.SoftDelete(System.Int32)">
+            <summary>
+            Soft deletes a main category by setting its IsDeleted flag to true.
+            </summary>
+            <param name="id">The unique identifier of the main category to be soft deleted.</param>
+            <returns>Returns a NoContent result if the soft delete is successful. 
+            Returns NotFound if the category does not exist.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.SubCategoriesController.GetAllMainCategories(System.Int32,System.Int32)">
+            <summary>
+            Retrieves a paginated list of all main categories.
+            </summary>
+            <param name="pageNumber">The page number to retrieve. Default is 1.</param>
+            <param name="pageSize">The number of items per page. Default is 10.</param>
+            <returns>Returns a paginated list of main categories.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.SubCategoriesController.GetById(System.Int32)">
+            <summary>
+            Retrieves a category by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the category.</param>
+            <returns>Returns the category details if found, otherwise NotFound.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.SubCategoriesController.Add(TaskOfManagingLibrary.DTOs.SubCategoryDtos.SubCategoryForCreateDto)">
+            <summary>
+            Adds a new subcategory.
+            </summary>
+            <param name="model">The subcategory data to be added.</param>
+            <returns>Returns the created subcategory details with its unique identifier.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.SubCategoriesController.Update(System.Int32,TaskOfManagingLibrary.DTOs.SubCategoryDtos.SubCategoryForCreateDto)">
+            <summary>
+            Updates an existing subcategory by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the subcategory to be updated.</param>
+            <param name="model">The updated subcategory data.</param>
+            <returns>Returns NoContent if the update is successful,
+            otherwise NotFound if the subcategory does not exist.</returns>
+        </member>
+        <member name="M:TaskOfManagingLibrary.Controllers.SubCategoriesController.SoftDelete(System.Int32)">
+            <summary>
+            Soft deletes an existing subcategory by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the subcategory to be soft deleted.</param>
+            <returns>Returns NoContent if the soft delete is successful, 
+            otherwise NotFound if the subcategory does not exist.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12810910-FB8D-4B7C-B9E5-D9546A5E8278}|TaskOfManagingLibrary\\TaskOfManagingLibrary.csproj|c:\\users\\30698\\source\\madad\\taskofmanaginglibrary\\taskofmanaginglibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12810910-FB8D-4B7C-B9E5-D9546A5E8278}|TaskOfManagingLibrary\\TaskOfManagingLibrary.csproj|solutionrelative:taskofmanaginglibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12810910-FB8D-4B7C-B9E5-D9546A5E8278}|TaskOfManagingLibrary\\TaskOfManagingLibrary.csproj|c:\\users\\30698\\source\\madad\\taskofmanaginglibrary\\taskofmanaginglibrary\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12810910-FB8D-4B7C-B9E5-D9546A5E8278}|TaskOfManagingLibrary\\TaskOfManagingLibrary.csproj|solutionrelative:taskofmanaginglibrary\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85DEACB5-987F-40AD-BA48-6C59E68EC120}|Infrastructures\\Infrastructures.csproj|c:\\users\\30698\\source\\madad\\taskofmanaginglibrary\\infrastructures\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85DEACB5-987F-40AD-BA48-6C59E68EC120}|Infrastructures\\Infrastructures.csproj|solutionrelative:infrastructures\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8978CD6-E40E-4C1B-BBAC-1DC169D09973}|Domain\\Domain.csproj|c:\\users\\30698\\source\\madad\\taskofmanaginglibrary\\domain\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8978CD6-E40E-4C1B-BBAC-1DC169D09973}|Domain\\Domain.csproj|solutionrelative:domain\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12810910-FB8D-4B7C-B9E5-D9546A5E8278}|TaskOfManagingLibrary\\TaskOfManagingLibrary.csproj|c:\\users\\30698\\source\\madad\\taskofmanaginglibrary\\taskofmanaginglibrary\\profiles\\bookmaping\\bookmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12810910-FB8D-4B7C-B9E5-D9546A5E8278}|TaskOfManagingLibrary\\TaskOfManagingLibrary.csproj|solutionrelative:taskofmanaginglibrary\\profiles\\bookmaping\\bookmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 199,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\TaskOfManagingLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "TaskOfManagingLibrary\\Program.cs",
+              "ToolTip": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\TaskOfManagingLibrary\\Program.cs",
+              "RelativeToolTip": "TaskOfManagingLibrary\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA6wBUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T17:40:56.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\Infrastructures\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructures\\Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\Infrastructures\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "Infrastructures\\Repository\\BaseRepository.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAArwKAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T17:22:09.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\TaskOfManagingLibrary\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "TaskOfManagingLibrary\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\TaskOfManagingLibrary\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "TaskOfManagingLibrary\\Controllers\\AuthorsController.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwGYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T17:20:15.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\Domain\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\Domain\\Models\\Author.cs",
+              "RelativeToolTip": "Domain\\Models\\Author.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA0wBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T17:19:43.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookMap.cs",
+              "DocumentMoniker": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\TaskOfManagingLibrary\\Profiles\\BookMaping\\BookMap.cs",
+              "RelativeDocumentMoniker": "TaskOfManagingLibrary\\Profiles\\BookMaping\\BookMap.cs",
+              "ToolTip": "C:\\Users\\30698\\source\\Madad\\TaskOfManagingLibrary\\TaskOfManagingLibrary\\Profiles\\BookMaping\\BookMap.cs",
+              "RelativeToolTip": "TaskOfManagingLibrary\\Profiles\\BookMaping\\BookMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T17:12:51.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
